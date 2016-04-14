@@ -13,6 +13,7 @@ I'm using `OpenCV 3.1`, while other version of OpenCV may work as well, since I 
 ### [Armadillo](http://arma.sourceforge.net/)
 A high quality linear algebra library (matrix maths) for the C++ language.
 
+Please note that `Armadillo` requires `LAPACK` for matrix decompositions and [boost](http://www.boost.org/). I'm using [Intel MKL](https://software.intel.com/en-us/intel-mkl) through Student Program. You may choose any LAPACK replacement you want.
 
 ## How to use
 
