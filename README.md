@@ -21,11 +21,11 @@ Take these 5 steps:
 
 * Download the "AT&T Database of Faces" from [here](http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html) and place it anywhere you want.
 
-* Change the `orl_path` at line  to your AT&T Database folder.
+* Change the `orl_path` at line 22 to your AT&T Database folder.
 
-* Set number of dimensions you're aim for by changing the `component_num` at line  .
+* Set number of dimensions you're aim for by changing the `component_num` at line 20.
 
-* Choose which measure of distance you want to use at line  and .
+* Choose which measure of distance you want to use at line 164 and 169.
 
 * Build and run!
  
