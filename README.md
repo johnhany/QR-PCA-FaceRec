@@ -2,6 +2,8 @@
 
 A face recognition algorithm using QR based PCA.
 
+如果您能看懂中文，我的[博客](http://johnhany.net/)有一篇关于原理的介绍[《从QR分解到PCA，再到人脸识别》](http://johnhany.net/2016/05/from-qr-decomposition-to-pca-to-face-recognition/)。欢迎指正！
+
 ## Requirements
 
 ### Visual Studio
