@@ -68,7 +68,7 @@ int main(int argc, const char *argv[]) {
 	for(int j = 0; j < class_num * sample_num; j++) {
 		H.col(j) -= mean_x.col(0);
 	}
-	H /= 1.0/sqrt(sample_num-1);
+	H *= 1.0/sqrt(sample_num-1);
 
 	arma::mat Q, R;
 	arma::qr_econ(Q, R, H);
